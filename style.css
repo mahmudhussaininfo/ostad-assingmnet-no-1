@@ -1,0 +1,14 @@
+.paragraph p {
+  color: red;
+}
+
+.h1 {
+  background-color: rgb(4, 139, 188);
+  color: #fff;
+  width: 25%;
+}
+.mamu {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+}

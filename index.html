@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container py-5">
+      <h1 class="text-center">Assignment no 1 from ostad</h1>
+      <hr />
+      <hr />
+      <!-- Create six buttons by Bootstrap Each button should have different colors and properties -->
+
+      <div class="bootstrap-button">
+        <h1>Bootstrap Buttons</h1>
+        <hr />
+
+        <button class="btn btn-success">Button1</button>
+        <button class="btn btn-info btn-outline-danger text-white">
+          Button2
+        </button>
+        <button class="btn btn-dark">Button3</button>
+        <button class="btn btn-danger btn-outline-info text-white">
+          Button4
+        </button>
+        <button class="btn btn-primary btn-outline-success text-white">
+          Button5
+        </button>
+        <button class="btn btn-secondary btn-outline-warning text-white">
+          Button6
+        </button>
+      </div>
+
+      <div class="paragraph py-5">
+        <!-- Create a paragraph text and its color will be red -->
+        <h1>Paragraph Text</h1>
+        <hr />
+        <p class="">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime
+          tempora laborum numquam iste fugiat eaque obcaecati beatae, aliquid
+          accusantium ut? Odit libero neque dolores distinctio, nobis minus enim
+          voluptas pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit. Maxime tempora laborum numquam iste fugiat eaque obcaecati
+          beatae, aliquid accusantium ut? Odit libero neque dolores distinctio,
+          nobis minus enim voluptas pariatur. Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Maxime tempora laborum numquam iste
+          fugiat eaque obcaecati beatae, aliquid accusantium ut? Odit libero
+          neque dolores distinctio, nobis minus enim voluptas pariatur.
+        </p>
+        <p class="text-danger">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime
+          tempora laborum numquam iste fugiat eaque obcaecati beatae, aliquid
+          accusantium ut? Odit libero neque dolores distinctio, nobis minus enim
+          voluptas pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit. Maxime tempora laborum numquam iste fugiat eaque obcaecati
+          beatae, aliquid accusantium ut? Odit libero neque dolores distinctio,
+          nobis minus enim voluptas pariatur. Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Maxime tempora laborum numquam iste
+          fugiat eaque obcaecati beatae, aliquid accusantium ut? Odit libero
+          neque dolores distinctio, nobis minus enim voluptas pariatur.
+        </p>
+      </div>
+
+      <!-- Put text inside an h1 tag and give it a background color. -->
+      <h1>H1 Text</h1>
+      <hr />
+      <h1 class="text-bg-dark w-25">Hello Bangladesh</h1>
+      <h1 class="h1">Hello Bangladesh</h1>
+
+      <!-- Create a navbar via Bootstrap and it must have a dropdown menu. -->
+      <div class="navbadr py-5">
+        <h1>Navbar via Bootstrap</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-info mamu mt-3">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Ostad</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Dashboard</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Create a forms Input group through Bootstrap and it must have Sizing set to Small. -->
+
+      <div class="form w-25">
+        <h1>Bootstrap Form</h1>
+        <hr />
+        <form>
+          <div class="mb-3 input-group-sm">
+            <label for="exampleInputEmail1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              We'll never share your email with anyone else.
+            </div>
+          </div>
+          <div class="mb-3 input-group-sm">
+            <label for="exampleInputPassword1" class="form-label"
+              >Password</label
+            >
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label class="form-check-label" for="exampleCheck1"
+              >Check me out</label
+            >
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+
+      <!-- Suppose you have three h2 tags, now you have to place the h2 three horizontally. And it must be in reverse. How to do it with bootstrap. (Hints: flex-row-reverse) -->
+
+      <div class="heading-text w-50 py-5">
+        <h1>Task no 6 (h2 tag with reverse)</h1>
+        <hr />
+        <div class="row flex-row-reverse">
+          <div class="col">
+            <h2>One</h2>
+          </div>
+          <div class="col">
+            <h2>Two</h2>
+          </div>
+          <div class="col">
+            <h2>Three</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
